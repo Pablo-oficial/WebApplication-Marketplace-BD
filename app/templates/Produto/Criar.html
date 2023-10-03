@@ -66,7 +66,33 @@
       <div class="u-clearfix u-sheet u-sheet-1"></div>
     </section>
     
-    
+    <form id="produto-form" action="/produtos" method="POST">
+      <label for="preco">Preço:</label>
+      <input type="number" step="0.01" id="preco" name="preco" required><br>
+
+      <label for="categoria">Categoria:</label>
+      <input type="text" id="categoria" name="categoria" required><br>
+
+      <label for="condicao">Condição:</label>
+      <input type="text" id="condicao" name="condicao" required><br>
+
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required><br>
+
+      <label for="descricao">Descrição:</label>
+      <textarea id="descricao" name="descricao" rows="4" required></textarea><br>
+
+      <label for="foto">Foto:</label>
+      <input type="file" id="foto" name="foto" accept="image/*" required><br>
+
+      <label for="dimensoes">Dimensões:</label>
+      <input type="text" id="dimensoes" name="dimensoes" required><br>
+
+      <label for="vendedor_id">ID do Vendedor:</label>
+      <input type="number" id="vendedor_id" name="vendedor_id" required><br>
+
+      <input type="submit" value="Criar Produto">
+  </form>
     
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-4736"><div class="u-clearfix u-sheet u-sheet-1">
         <p class="u-small-text u-text u-text-variant u-text-1">João Pablo da Paz de Jesus &amp; João Rosa Conceição (2023)</p>
