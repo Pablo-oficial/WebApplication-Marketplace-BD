@@ -50,8 +50,7 @@ def excluir_usuario(id):
     db.session.commit()
     return redirect(url_for('listar_usuarios'))
 
-# Rotas para operações CRUD de Produto (você pode criar rotas semelhantes para Produto e Carrinho)
-# ...
+# Rotas para operações CRUD de Produto 
 
 if __name__ == '__main__':
     app.run(debug=True)
